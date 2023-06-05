@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRF Dashboard</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>    <script src="script.js"></script> 
+    <body onload="on_body_loaded()">
+        <div class="container">
+            <img src="floorplan.png" alt="floorplan" style="width:100%;">
+
+            <div id="overlay">
+                <!-- Top row -->
+                <div class="sensor-info" style="top:220px; left:310px">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="sensor-info" style="top:220px; left:670px">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="sensor-info" style="top:220px; left:1050px">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="sensor-info" style="top:220px; left:1420px">
+                    <p></p>
+                    <p></p>
+                </div>
+
+                <!-- Middle row -->
+                <div class="sensor-info" style="top:380px; left:490px">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="sensor-info" style="top:380px; left:870px">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="sensor-info" style="top:380px; left:1230px">
+                    <p></p>
+                    <p></p>
+                </div>
+                <!-- Bottom row -->
+                <div class="sensor-info" style="top:570px; left:310px">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="sensor-info" style="top:570px; left:670px">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="sensor-info" style="top:570px; left:1050px">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="sensor-info" style="top:570px; left:1420px">
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+
+
+        </div> 
+    </body>
+</html>
